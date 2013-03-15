@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+      <ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">    
+    <TableRow>
+        <TextView
+        android:id="@+id/beneficiary_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/beneficiary_lbl"
+        android:padding="8dip"/>
+    	<EditText
+        android:id="@+id/beneficiary_entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"/>   
+    </TableRow>
+    <TableRow>
+        <TextView
+        android:id="@+id/spouse_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spouse_lbl"
+        android:padding="8dip"/>
+    <EditText
+        android:id="@+id/spouse_entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"/>   
+    </TableRow>   
+    </TableLayout> 
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:padding="20dip"
+    >
+	<ImageButton android:id="@+id/image_one_button"
+		android:layout_width="60dip" 
+		android:layout_height="60dip"
+		android:scaleType="center" 
+		android:background="@drawable/icon"
+		android:padding="20dip" />    
+    <ImageButton android:id="@+id/image_two_button"
+		android:layout_width="60dip" 
+		android:layout_height="60dip"
+		android:scaleType="center" 
+		android:background="@drawable/icon"
+		android:padding="20dip" />
+	<ImageButton android:id="@+id/image_three_button"
+		android:layout_width="60dip" 
+		android:layout_height="60dip"
+		android:scaleType="center" 
+		android:background="@drawable/icon"
+		android:padding="20dip" />
+	<ImageButton android:id="@+id/image_four_button"
+		android:layout_width="60dip" 
+		android:layout_height="60dip"
+		android:scaleType="center" 
+		android:background="@drawable/icon"
+		android:padding="20dip" />		
+    
+    </LinearLayout>      	
+       <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+     <Button 
+     	android:id="@+id/save_btn"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/save_data_lbl" 
+    	android:padding="8dip"   	
+    	android:layout_alignParentRight="true"/>  
+    </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

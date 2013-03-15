@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">WaterShedApp</string>
+    <string name="input_screen_title">Watershed Development Department</string>    
+    <string name="dist_lbl">District</string>
+    <string name="taluk_lbl">Taluk</string>
+    <string name="enter_app_si_no_lbl">Enter App SI No.</string>
+    <string name="or_lbl">OR</string>
+    <string name="view_btn_lbl">View</string>
+    <string name="enter_app_sub_si_no_lbl">Enter App Sub SI No.</string>
+    <string name="and_lbl">AND</string>
+    <string name="scheme_lbl">Scheme</string>
+    <string name="series_lbl">Series Year</string>
+    <string name="hobli_lbl">Hobli</string>
+    <string name="village_lbl">Village</string>
+    <string name="update_btn_lbl">>></string>
+    <string name="beneficiary_lbl">Beneficiary Name</string>
+    <string name="spouse_lbl">Spouse Name</string>
+    <string name="save_data_lbl">Save Data</string>
+</resources>
